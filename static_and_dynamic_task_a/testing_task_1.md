@@ -13,8 +13,9 @@ class CardGame
 
 
   def checkforAce(card)
-    #underscores^
+#  underscores^
     if card.value = 1
+#                 ^needs another equal sign
       return true
     else
       return false
@@ -22,11 +23,13 @@ class CardGame
   end
 
   dif highest_card(card1 card2)
-  #def^            comma^
+  #def^  .self^    comma^
   if card1.value > card2.value
     return card.name
+#          card1^
   else
     card2
+#        ^.name
   end
 end
 end
@@ -39,6 +42,7 @@ def self.cards_total(cards)
     total += card.value
   #forgot 'if'  
     return "You have a total of" + total
+#                quotes should end here^
   end
 end
 
